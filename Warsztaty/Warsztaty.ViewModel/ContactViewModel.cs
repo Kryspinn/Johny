@@ -8,12 +8,12 @@ namespace Warsztaty.ViewModel
     public class ContactViewModel
     {       
         [MaxLength(25)]
-        public virtual string Name { get; set; }
+        public string Name { get; set; }
 
-        public virtual int Number { get; set; }
+        public int Number { get; set; }
 
-        public virtual string Email { get; set; }
+        public string Email { get; set; }
 
-        public virtual string Phone { get; set; }
+        public string Phone { get; set; }
     }
 }
